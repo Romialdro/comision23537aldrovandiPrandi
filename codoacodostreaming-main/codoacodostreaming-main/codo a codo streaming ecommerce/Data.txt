@@ -1,0 +1,117 @@
+
+// VAMOS A USAR ICOFONT PARA NUESTRO SITIO EN VUE
+
+iconos icofont, carpetas: 
+<i class="icofont-smart-phone"></i>
+<i class="icofont-monitor"></i>
+<i class="icofont-discord"></i>
+<i class="icofont-ui-touch-phone"></i>
+<i class="icofont-android-tablet"></i>
+<i class="icofont-ui-movie"></i>
+<i class="icofont-email"></i>
+<i class="icofont-instagram"></i>
+<i class="icofont-brand-youtube"></i>
+<i class="icofont-brand-paypal"></i>
+<i class="icofont-ui-video-play"></i>
+<i class="icofont-user"></i>
+<i class="icofont-add-users"></i>
+<i class="icofont-manage-user"></i>
+<i class="icofont-star"></i>
+<i class="icofont-like"></i>
+<i class="icofont-notification"></i>
+<i class="icofont-volume-mute"></i>
+<i class="icofont-volume-down"></i>
+<i class="icofont-volume-up"></i>
+<i class="icofont-look"></i>
+<i class="icofont-ui-search"></i>
+<i class="icofont-heart"></i>
+<i class="icofont-pay"></i>               
+<i class="icofont-paypal-alt"></i>    
+ 
+<i class="icofont-home"></i>
+<i class="icofont-play-alt-1"></i>
+<i class="icofont-play-alt-2"></i>
+<i class="icofont-play-pause"></i> 
+<i class="icofont-ui-video-play"></i>
+<i class="icofont-playstation-alt"></i>
+<i class="icofont-thumbs-down"></i> 
+<i class="icofont-download"></i>
+<i class="icofont-support-faq"></i>
+<i class="icofont-support"></i>
+<i class="icofont-cogs"></i>
+<i class="icofont-thumbs-up"></i>
+<i class="icofont-multimedia"></i>
+<i class="icofont-forward"></i>
+<i class="icofont-pause"></i>
+<i class="icofont-rewind"></i>
+<i class="icofont-visa"></i>
+<i class="icofont-mastercard"></i>
+<i class="icofont-alarm"></i>
+<i class="icofont-ui-settings"></i>
+<i class="icofont-ui-rate-add"></i>
+<i class="icofont-ui-rate-blank"></i>
+<i class="icofont-ui-rate-remove"></i>
+<i class="icofont-ui-rating"></i>
+<i class="icofont-user-alt-7"></i>
+<i class="icofont-ui-video"></i>
+
+
+codoacodostreaming-main- PROTOTIPO EN VUE FUTURO 
+│
+├── Css
+│   └── style.css
+│
+├── Html
+│   ├── aboutUs.html
+│   ├── contacto.html
+│   ├── derechos.html
+│   ├── filtros.html
+│   ├── peliculas.html
+│   ├── politicaPriv.html
+│   ├── registro.html
+│
+├── Ico
+│   └── icofont
+│       └── (iconos de IcoFont)
+│
+├── Img
+│   └── (imágenes del sitio)
+│
+├── Scripts
+│   ├── JS
+│   │   └── script.js
+│   └── Data.txt
+│
+├── Components
+│   ├── Head
+│   │   └── head.html
+│   ├── Footer
+│   │   └── footer.html
+│   ├── Navegacion
+│   │   └── navegacion.html
+│   ├── TarjetaPelicula
+│   │   ├── tarjeta-pelicula.html
+│   │   └── tarjeta-pelicula.js
+│
+├── DetallePelicula
+│   │   ├── detalle-pelicula.html
+│   │   └── detalle-pelicula.js
+│
+├── node_modules (carpeta de dependencias de Node.js)
+│
+├── package.json (archivo de configuración del proyecto)
+│
+├── vue.config.js (configuración de Vue CLI)
+│
+├── public
+│   └── index.html (página principal)
+
+
+
+
+
+
+
+
+
+ 

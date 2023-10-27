@@ -1,0 +1,151 @@
+/*----------Estilos generales-------*/
+body{
+	margin: 0%;
+	background-color: black!important;
+	color: aliceblue!important;
+}
+
+.pelicula-principal {
+	position: relative;
+	height: 100vh;
+	overflow: hidden;
+  }
+  
+  .video-background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: -1; 
+  }
+  
+  .informacion {
+	position: absolute;
+	bottom: 15px;
+	nav-right: 10px;
+	text-align: left;
+	background: rgba(0, 0, 0, 0.292);
+	padding: 10px;
+	border-radius: 5px;
+	z-index: 1;
+  }
+
+     
+/* Estilos para el footer */
+
+.footer {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	background-color: black; 
+	padding: 80px;
+	font-family: sans-serif;
+	text-transform: capitalize;
+	color: #2f53f1;
+  
+  }
+  
+  .footer-row {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .footer-links {
+	width: 25% ;
+	padding: 0 15px;
+  
+  }
+  
+  /* Estilos para los íconos de redes sociales */
+  .footer-links h4 {
+	font-size: 20px;
+	margin-bottom: 25px;
+	font-weight: 500;
+	border-bottom: 2px solid #0c0294 ;
+	padding-bottom: 10px;
+	display: inline-block;
+  }
+  
+  /* Estilos para los íconos en el footer */
+  .footer-links ul li a {
+	font-size: 18px ;
+	text-decoration: none;
+	color: #0b20e3;
+	display: block;
+	margin-bottom: 15px;
+	transition: all .3s ease;
+  }
+  
+  .footer-links ul li a:hover {
+	color: #00fff7;
+	padding-left: 6px;
+  }
+  .social-link a {
+	display: inline-block;
+	min-height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin: 0px 10px 10px 0;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+	color: gray;
+	transition: all .5s ease;
+	
+  }
+  
+  .social-link a:hover {
+	color: #00fff7;
+	padding-left: 6px;
+  }
+  
+  i{
+	font-size: 25px;
+	text-align: center;
+	padding-top: 8px;
+	color: #0b1de3;
+  }
+  /* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+	.footer {
+	  padding: 50px; 
+	}
+  }
+  
+  /* Media query para pantallas de escritorio */
+  @media (min-width: 769px) {
+	.footer {
+	  padding: 20px; 
+	}
+  }
+  @media (max-width:991px){
+	.footer-row {
+	  text-align: center;
+  }
+  
+	.footer-links{
+	  width: 100%;
+	  margin-bottom: 30px;
+	}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
