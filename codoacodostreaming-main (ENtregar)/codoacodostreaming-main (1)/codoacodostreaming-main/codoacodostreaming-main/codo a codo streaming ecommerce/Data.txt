@@ -1,0 +1,167 @@
+
+El presente sitio web, denominado "CineStream", es el resultado de la colaboración de Romina Aldrovandi y Alfredo Prandi. Se erige como una plataforma de transmisión de contenido audiovisual centrada en la difusión de películas y series. La arquitectura del sitio se basa en los pilares fundamentales de desarrollo web, incluyendo tecnologías HTML, CSS y JavaScript, que se combinan para crear una experiencia de usuario inmersiva.
+
+Una de las características distintivas de "CineStream" es el uso de imágenes de películas. Para lograrlo, hemos incorporado la Inteligencia Artificial de Bing, lo que permite crear vistas  atractivas para  títulos en nuestro catálogo.
+
+El diseño del sitio ha sido concebido con un enfoque en la usabilidad y la accesibilidad. Para lograrlo, hemos empleado la popular biblioteca de diseño Bootstrap, que garantiza una experiencia de usuario óptima en una amplia gama de dispositivos.
+
+Para enriquecer la experiencia de los usuarios, hemos incorporado conjuntos de íconos de Icofont y Font Awesome. Esto no solo agrega un toque visual atractivo, sino que también mejora la usabilidad al proporcionar íconos intuitivos para la navegación y la interacción con la plataforma.
+
+En cuanto a la estética del sitio, hemos optado por un esquema de colores predominantemente oscuros, que se inspira en el ambiente de una sala de cine.
+
+Cada título en "CineStream" está cuidadosamente enlazado a su respectivo tráiler en YouTube. Esto permite a los usuarios explorar y conocer más sobre las películas antes de decidir cuál ver. Además, se ha integrado un catálogo de contenido organizado por categorías y géneros para facilitar la búsqueda y selección de películas.
+
+En conclusión, "CineStream" es una plataforma de streaming de cine y series que combina tecnologías con un diseño centrado en el usuario. Nuestro compromiso con la calidad, la usabilidad y la estética cinematográfica se refleja en cada aspecto del sitio. Esperamos que disfruten de la experiencia de streaming y encuentren en "CineStream" una fuente confiable de entretenimiento audiovisual.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// VAMOS A USAR ICOFONT PARA NUESTRO SITIO EN VUE
+
+iconos icofont, carpetas: 
+<i class="icofont-smart-phone"></i>
+<i class="icofont-monitor"></i>
+<i class="icofont-discord"></i>
+<i class="icofont-ui-touch-phone"></i>
+<i class="icofont-android-tablet"></i>
+<i class="icofont-ui-movie"></i>
+<i class="icofont-email"></i>
+<i class="icofont-instagram"></i>
+<i class="icofont-brand-youtube"></i>
+<i class="icofont-brand-paypal"></i>
+<i class="icofont-ui-video-play"></i>
+<i class="icofont-user"></i>
+<i class="icofont-add-users"></i>
+<i class="icofont-manage-user"></i>
+<i class="icofont-star"></i>
+<i class="icofont-like"></i>
+<i class="icofont-notification"></i>
+<i class="icofont-volume-mute"></i>
+<i class="icofont-volume-down"></i>
+<i class="icofont-volume-up"></i>
+<i class="icofont-look"></i>
+<i class="icofont-ui-search"></i>
+<i class="icofont-heart"></i>
+<i class="icofont-pay"></i>               
+<i class="icofont-paypal-alt"></i>    
+ 
+<i class="icofont-home"></i>
+<i class="icofont-play-alt-1"></i>
+<i class="icofont-play-alt-2"></i>
+<i class="icofont-play-pause"></i> 
+<i class="icofont-ui-video-play"></i>
+<i class="icofont-playstation-alt"></i>
+<i class="icofont-thumbs-down"></i> 
+<i class="icofont-download"></i>
+<i class="icofont-support-faq"></i>
+<i class="icofont-support"></i>
+<i class="icofont-cogs"></i>
+<i class="icofont-thumbs-up"></i>
+<i class="icofont-multimedia"></i>
+<i class="icofont-forward"></i>
+<i class="icofont-pause"></i>
+<i class="icofont-rewind"></i>
+<i class="icofont-visa"></i>
+<i class="icofont-mastercard"></i>
+<i class="icofont-alarm"></i>
+<i class="icofont-ui-settings"></i>
+<i class="icofont-ui-rate-add"></i>
+<i class="icofont-ui-rate-blank"></i>
+<i class="icofont-ui-rate-remove"></i>
+<i class="icofont-ui-rating"></i>
+<i class="icofont-user-alt-7"></i>
+<i class="icofont-ui-video"></i>
+
+
+codoacodostreaming-main- PROTOTIPO EN VUE FUTURO 
+│
+├── Css
+│   └── style.css
+│
+├── Html
+│   ├── aboutUs.html
+│   ├── contacto.html
+│   ├── derechos.html
+│   ├── filtros.html
+│   ├── peliculas.html
+│   ├── politicaPriv.html
+│   ├── registro.html
+│
+├── Ico
+│   └── icofont
+│       └── (iconos de IcoFont)
+│
+├── Img
+│   └── (imágenes del sitio)
+│
+├── Scripts
+│   ├── JS
+│   │   └── script.js
+│   └── Data.txt
+│
+├── Components
+│   ├── Head
+│   │   └── head.html
+│   ├── Footer
+│   │   └── footer.html
+│   ├── Navegacion
+│   │   └── navegacion.html
+│   ├── TarjetaPelicula
+│   │   ├── tarjeta-pelicula.html
+│   │   └── tarjeta-pelicula.js
+│
+├── DetallePelicula
+│   │   ├── detalle-pelicula.html
+│   │   └── detalle-pelicula.js
+│
+├── node_modules (carpeta de dependencias de Node.js)
+│
+├── package.json (archivo de configuración del proyecto)
+│
+├── vue.config.js (configuración de Vue CLI)
+│
+├── public
+│   └── index.html (página principal)
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 

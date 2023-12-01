@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style4.css">
+        <link rel="stylesheet" href="../Ico/icofont/icofont/icofont.min.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <title>Filtros</title>
+    </head>
+    <body>
+        <section class="container-aboutUs">
+            <nav class="navbar-aboutUs">
+                <div class="logoCs">
+                    <a href="../index.html"><img
+                            src="../Img/logo_cinestream.png" alt="Logo"></a>
+                </div>
+                <div class="botones">
+                    <button type="submit"><a class="textoBoton"
+                            href="../index.html">Iniciar Sesión</a></button>
+                </div>
+            </nav>
+        </section>
+            <section>
+                <section class="pelicula-principal">
+                    <div class="contenedor">
+                        <div class="informacion"></div>
+
+                    </div>
+                    <video class="video-background" muted autoplay loop
+                        poster="../Img/IA/background-image.webp">
+                        <source src="../Img/IA/background-video.mp4"
+                            type="video/mp4">
+                        <img src="../Img/IA/background-image.webp"
+                            alt="Imagen background">
+                    </video>
+                </section>
+                <div class="filtro-container">
+                    <h3>Filtrar Películas</h3>
+                    <div class="filtro-row">
+                        <div class="filtro-item">
+                            <input type="text" id="filtro-titulo"
+                                placeholder="Título">
+                        </div>
+                        <div class="filtro-item">
+                            <select id="filtro-genero">
+                                <option value>Todos los géneros</option>
+                                <option value="Acción">Acción</option>
+                                <option value="Ciencia Ficción (Sci-Fi)">Ciencia
+                                    Ficción (Sci-Fi)</option>
+                                <option value="Terror">Terror</option>
+                                <option value="Drama">Drama</option>
+                            </select>
+                        </div>
+                        <div class="filtro-item">
+                            <button id="filtro-btn" class="btn btn-danger">Filtrar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Aquí se generan en bucle los divs que están en js -->
+                <main class="p-5" style="background-color: rgb(1, 3, 11);">
+                    <div id="peliculas-container">
+
+                    </div>
+                </main>
+
+                
+                <!--Footer-->
+                <footer class="footer">
+                    <div class="container">
+                        <div class="footer-row justify-content-center">
+                            <div class="footer-links">
+                                <h4>Cinestream</h4>
+                                <ul>
+                                    <li><a href="./Html/aboutUs.html">Nosotros</a></li>
+                                    <li><a href="./Html/derechos.html">Derechos
+                                            de contenido</a></li>
+                                    <li><a href="./Html/politicaPriv.html">Politica
+                                            de privacidad</a></li>
+                                    <li><a href="./Html/registro.html">Prueba
+                                            gratis</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-links">
+                                <h4>Ayuda</h4>
+                                <ul>
+                                    <li><a href="./index.html">Preguntas</a></li>
+                                    <li><a href="./Html/contacto.html">Contacto</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="footer-links">
+                                <h4>Siguenos</h4>
+                                <div class="social-link">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+                <!-- Scripts -->
+                <script src="./pelis.js"></script>
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            </section>
+        
+    </body>
+
+</html>

@@ -1,0 +1,182 @@
+{
+  "Acción": [
+    {
+      "Título": "John Wick: Chapter 4",
+      "Enlace": "https://www.youtube.com/watch?v=ENzKLxDL18g",
+      "poster_path": "./Pelis/john-wick-chapter-4-r.jpg",
+      "Genero": "Acción"
+    },
+    {
+      "Título": "Fast X",
+      "Enlace": "https://www.youtube.com/watch?v=32RAq6JzY-w",
+      "poster_path": "./Pelis/FAST FURIOS_4 tarjetas.jpg",
+      "Genero": "Acción"
+    },
+    {
+      "Título": "Mission: Impossible Dead Reckoning Part One",
+      "Enlace": "https://www.youtube.com/watch?v=avz06PDqDbM",
+      "poster_path": "./Pelis/mision.jpg",
+      "Genero": "Acción"
+    },
+    {
+      "Título": "The Equalizer 3",
+      "Enlace": "https://www.youtube.com/watch?v=19ikl8vy4zs",
+      "poster_path": "./Pelis/equalizerlt.jpg",
+      "Genero": "Acción"
+    },
+    {
+      "Título": "Heart of Stone",
+      "Enlace": "https://www.youtube.com/watch?v=XuDwndGaCFo",
+      "poster_path": "./Pelis/p23905086_v_h8_aa.jpg",
+      "Genero": "Acción"
+    }
+  ],
+  "Ciencia Ficción (Sci-Fi)": [
+    {
+      "Título": "Dune 2: Duna: Parte Dos",
+      "Enlace": "https://www.youtube.com/watch?v=YdhPAyApRQ4",
+      "poster_path": "./Pelis/Dune.jpg",
+      "Genero": "Ciencia Ficción (Sci-Fi)"
+    },
+    {
+      "Título": "65",
+      "Enlace": "https://www.youtube.com/watch?v=bHXejJq5vr0",
+      "poster_path": "./Pelis/65.jpg",
+      "Genero": "Ciencia Ficción (Sci-Fi)"
+    },
+    {
+      "Título": "Indiana Jones: Indiana Jones y El Dial del Destino",
+      "Enlace": "https://www.youtube.com/watch?v=LTDdC71bN30",
+      "poster_path": "./Pelis/Indiana 4.jpg",
+      "Genero": "Ciencia Ficción (Sci-Fi)"
+    },
+    {
+      "Título": "Transformers: Rise of the Beasts",
+      "Enlace": "https://www.youtube.com/watch?v=LTDdC71bN30",
+      "poster_path": "./Pelis/transformers.jpg",
+      "Genero": "Ciencia Ficción (Sci-Fi)"
+    },
+    {
+      "Título": "Marvel Studios Guardians of the Galaxy Vol. 3",
+      "Enlace": "https://www.youtube.com/watch?v=ZtuFgnxQMrA",
+      "poster_path": "./Pelis/Guardianes de la galaxiachico.jpg",
+      "Genero": "Ciencia Ficción (Sci-Fi)"
+    }
+  ],
+  "Terror": [
+    {
+      "Título": "Child's Play",
+      "Enlace": "https://www.youtube.com/watch?v=PeHNLikDiVw",
+      "poster_path": "./Pelis/chuky4.jpg",
+      "Genero": "Terror"
+    },
+    {
+      "Título": "The Nun II",
+      "Enlace": "https://www.youtube.com/watch?v=QF-oyCwaArU",
+      "poster_path": "./Pelis/la monja.jpg",
+      "Genero": "Terror"
+    },
+    {
+      "Título": "No One Will Save You",
+      "Enlace": "https://www.youtube.com/watch?v=IcA02w6rm44",
+      "poster_path": "./Pelis/extraterrestres feos .jpg",
+      "Genero": "Terror"
+    },
+    {
+      "Título": "Skinamarink",
+      "Enlace": "https://www.youtube.com/watch?v=APQqilSTxz0",
+      "poster_path": "./Pelis/skin.jpg",
+      "Genero": "Terror"
+    },
+    {
+      "Título": "The Exorcist: Believer",
+      "Enlace": "https://www.youtube.com/watch?v=PIxpPMyGcpU",
+      "poster_path": "./Pelis/exorcist.jpg",
+      "Genero": "Terror"
+    }
+  ],
+  "Comedia": [
+    {
+      "Título": "Joy Ride",
+      "Enlace": "https://www.youtube.com/watch?v=jyI-AM5VXDo",
+      "poster_path": "./Pelis/Joy-Ride-resized-copy.jpg",
+      "Genero": "Comedia"
+    },
+    {
+      "Título": "No Hard Feelings",
+      "Enlace": "https://www.youtube.com/watch?v=P15S6ND8kbQ",
+      "poster_path": "./Pelis/jenifer.jpg",
+      "Genero": "Comedia"
+    },
+    {
+      "Título": "Bottoms",
+      "Enlace": "https://www.youtube.com/watch?v=vH5NAahf76s",
+      "poster_path": "./Pelis/bottoms.jpg",
+      "Genero": "Comedia"
+    },
+    {
+      "Título": "Totally Killer",
+      "Enlace": "https://www.youtube.com/watch?v=5vYipYSDhtQ",
+      "poster_path": "./Pelis/totally-killer-pop-culturalist-1280x720.jpg",
+      "Genero": "Comedia"
+    },
+    {
+      "Título": "Quiz Lady",
+      "Enlace": "https://www.youtube.com/watch?v=4OzaexEqDa8",
+      "poster_path": "./Pelis/quiz-lady.jpg",
+      "Genero": "Comedia"
+    },
+    {
+      "Título": "Platonic",
+      "Enlace": "https://www.youtube.com/watch?v=NjmzVTDHLY4",
+      "poster_path": "./Pelis/platonic.jpg",
+      "Genero": "Comedia"
+    }
+  ],
+  "Drama": [
+    {
+      "Título": "The Whale",
+      "Enlace": "https://www.youtube.com/watch?v=nWiQodhMvz4",
+      "poster_path": "./Pelis/ballena.jpg",
+      "Genero": "Drama"
+    },
+    {
+      "Título": "TÁR",
+      "Enlace": "https://www.youtube.com/watch?v=Ih1LOdHcu8U",
+      "poster_path": "./Pelis/tar.jpg",
+      "Genero": "Drama"
+    },
+    {
+      "Título": "The Banshees of Inisherin",
+      "Enlace": "Enlace a YouTube",
+      "poster_path": "./Pelis/flauta.jpg",
+      "Genero": "Drama"
+    },
+    {
+      "Título": "The Fabelmans",
+      "Enlace": "https://www.youtube.com/watch?v=uRu3zLOJN2c",
+      "poster_path": "./Pelis/The-Fabelmans-1080x572.jpeg",
+      "Genero": "Drama"
+    },
+    {
+      "Título": "The Son",
+      "Enlace": "https://www.youtube.com/watch?v=SJWRY4DzoAQ",
+      "poster_path":"./Pelis/the-son.jpg",
+      "Genero": "Drama"
+    },
+    {
+      "Título": "Beau Is Afraid",
+      "Enlace": "https://www.youtube.com/watch?v=PuiWDn976Ek",
+      "poster_path": "./Pelis/beau is afraid.jpg",
+      "Genero": "Drama"
+    }
+  ],
+  "Series": [
+    {
+      "Título": "Cyber Police",
+      "Enlace": "Enlace a YouTube",
+      "poster_path": "../Img/IA/8.jpg",
+      "Genero": "Series"
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./Css/Style2.css">
+    <link rel="stylesheet" href="./Ico/icofont/icofont/icofont.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>CineStream</title>
+  </head>
+  <body>
+
+    <!--Fondo gradiente azul-->
+    <section class="fondounico">
+
+      <!--Botón de Iniciar sesión-->
+      <div id="btnInicio">
+        <button id="btn-iniciaSesion"><a class="textoBoton"
+            href="Html/registro.html"> Iniciar Sesión </a></button>
+      </div>
+    
+      <!--Logo y texto de la página principal-->
+
+      <section class="hero container-fluid text-center col-12 p-6">
+        <div class="hero-content">
+          <div class="logoinicio">
+            <img class="img-fluid" src="./Img/logo_cinestream.png"
+              alt="logoCinestream">
+          </div>
+          <div class="titulos col-12">
+            <h3 class="display-4">DISFRUTA DE TUS PELICULAS Y SERIES FAVORITAS</h3>
+          </div>
+          <div class="titulos col-12 p-6 m-2">
+            <h4 class="h2">Explora nuestra amplia selección de contenido</h4>
+          </div>
+          <div class="p-2 mb-5"></div>
+        </div>
+        <br>
+        <!--formulario de inicio-->
+        <section>
+          <div class="col-12 p-2 m-2"></div>
+          <div class="login-container col-12 p-6 m-2 text-center ">
+            <form class="login-form">
+              <div class="form-group">
+                <label for="mail">Correo Electrónico</label>
+                <input type="email" name="mail" id="mail">
+              </div>
+              <div class="form-group">
+                <label for="contraseña">Contraseña</label>
+                <input type="password" name="contraseña" id="contraseña">
+              </div>
+              <div class="btn-ingreso-registro">
+                <button type="button" class="btnInicio"> <a class="textoBoton"
+                    href="./Pelis/filtros.html">Ingresar</a></button>
+              </div>  
+                <p class="form-group">¿Todavía no tenés cuenta?</p>
+              <div class="btn-ingreso-registro">  
+                <button type="button" class="btnInicio"><a class="textoBoton"
+                    href="./Html/registro.html">Registro</a></button>
+              </div>
+            </form>
+          </div>
+          <div class="p-2 m-2"></div>
+        </section>
+      </section>
+
+      <!--Planes de membresía-->
+      <section
+        class="membership-plans container-fluid text-center justify-content-center">
+        <div class="row rowout">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title">Estándar</h6>
+                <p class="card-text">
+                  <ul class="card-text">
+                    <li>Acceso ilimitado a películas, series y shows</li>
+                    <li>Usa 1 dispositivo a la vez</li>
+                    <li>Contenido en HD</li>
+                    <li>Descargas en 1 dispositivo a la vez</li>
+                    <li>Acceso a la serie exclusiva </li>
+                  </ul>
+                </p>
+                <button type="button" class="btnPlanes"><a class="textoBoton"
+                    href="./Html/peliculas.html">Empezar</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title">Premium</h6>
+                <p class="card-text">
+                  <ul class="card-text">
+                    <li>Acceso ilimitado a películas, series y shows</li>
+                    <li>Usa 2 dispositivo a la vez</li>
+                    <li>Contenido en HD</li>
+                    <li>Descargas en 2 dispositivos a la vez</li>
+                    <li>Agregá 1 miembro extra</li>
+                  </ul>
+                </p>
+                <button type="button" class="btnPlanes"><a class="textoBoton"
+                    href="./Html/peliculas.html">Empezar</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--aca section peliculas-->
+    <main>
+      <div class="pelicula-principal">
+        <div class="contenedor">
+          <h3 class="titulo">Todo el cine en un solo lugar</h3>
+        </div>
+      </div>
+      <div class="peliculas-recomendadas contenedor">
+        <div class="contenedor-titulo-controles">
+          <h3>Películas Recomendadas</h3>
+          <div class="indicadores"></div>
+        </div>
+        <div class="contenedor-principal">
+          <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i
+              class="fas fa-angle-left"></i></button>
+
+          <div class="contenedor-carousel">
+            <div class="carousel">
+              <div class="pelicula">
+                <a href="#"><img src="./Img/Imgcarrouselchico/1.png" alt></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="./Img/Imgcarrouselchico/2.png" alt></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="./Img/Imgcarrouselchico/3.png" alt></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="./Img/Imgcarrouselchico/4.png" alt></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="./Img/Imgcarrouselchico/5.png" alt></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="./Img/Imgcarrouselchico/6.png" alt></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="./Img/Imgcarrouselchico/7.png" alt></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="./Img/Imgcarrouselchico/1.png" alt></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="./Img/Imgcarrouselchico/2.png" alt></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="./Img/Imgcarrouselchico/3.png" alt></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="./Img/Imgcarrouselchico/4.png" alt></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="./Img/Imgcarrouselchico/5.png" alt></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="./Img/Imgcarrouselchico/6.png" alt></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="./Img/Imgcarrouselchico/7.png" alt></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="./Img/Imgcarrouselchico/1.png" alt></a>
+              </div>
+              <div class="pelicula">
+                <a href="#"><img src="./Img/Imgcarrouselchico/2.png" alt></a>
+              </div>
+            </div>
+          </div>
+          <button role="button" id="flecha-derecha" class="flecha-derecha"><i
+              class="fas fa-angle-right"></i></button>
+        </div>
+      </div>
+    </main>
+    
+
+      <!-- dispositivos disponibles, familia -->
+      <section class="container-fluid">
+
+        <div class="row">
+
+          <!-- Segundo div con imagen adaptable -->
+          <div class="column">
+            <div class="content">
+              <img src="Img/IA/Familia.jpg" alt="Imagen" class="img-fluid">
+            </div>
+          </div>
+
+          <!-- Primer div con lorem centrado -->
+          <div class="column bg-black text-white center-content">
+            <div class="content">
+              Disfrutalo en familia con el control parental en todos tus dispositivos
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <!-- Tercer div con lorem -->
+          <div class="column bg-black text-white center-content">
+            <div class="content">
+              Todo el contenido Premium en 4K para celulares, laptos y
+                tablets
+            </div>
+          </div>
+
+          <!-- Cuarto div con imagen adaptable -->
+          <div class="column">
+            <div class="content">
+              <img src="./Img/IA/Disp.jpg" alt="Imagen" class="img-fluid">
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!--aca íconos dispositivos-->
+      <section class="container-fluid text-center" id="disposit">
+        <div class="row2">
+          <div class="col">
+            <i class="icofont-monitor" style="font-size: 40px;"><h6>Monitores</h6></i>
+          </div>
+          <div class="col">
+            <i class="icofont-android-tablet" style="font-size: 40px;"><h6>Tablets</h6></i>
+          </div>
+          <div class="col">
+            <i class="icofont-ui-touch-phone" style="font-size: 40px;"><h6>SmartPhones</h6></i>
+          </div>
+          <div class="col">
+            <i class="icofont-playstation-alt" style="font-size: 40px;"><h6>PlayStation</h6></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- Exclusivo Cyber Police -->
+      <section class="container-fluid text-center p-0"
+        style="background-color: black;">
+        <h3
+          class="container-fluid text-center justify-content-center text-light p-5">Disfruta
+          nuestras series y películas exclusivas</h3>
+        <div class="container2">
+          <div class="box">
+            <a href="#">
+              <img src="./Img/IA/1.jpg">
+              <div class="capa">
+                Disfuta
+              </div>
+            </a>
+          </div>
+
+          <div class="box">
+            <a href="#">
+              <img src="./Img/IA/2.jpg">
+              <div class="capa">
+                Todo el contenido
+              </div>
+            </a>
+          </div>
+
+          <div class="box">
+            <a href="#">
+              <img src="./Img/IA/3.jpg">
+              <div class="capa">
+                En Cinestream
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------------------------SECCION ACORDEON SIN BOOSTRAP con JS------------------------------->
+
+      <section id="background"
+        class="container-fluid text-center col-12 p-3 p-md-5"
+        style="background-color: black;">
+        <section
+          class="container col-lg-8 col-md-10 col-sm-12 p-3 p-md-5 mb-lg-4"
+          id="acordeon-text">
+          <div class="accordion" id="myAccordion">
+            <div class="accordion-item">
+              <button class="accordion-button" data-target="#collapseOne"
+                aria-expanded="false" aria-controls="collapseOne">
+                ¿Qué es CineStream?
+              </button>
+              <div id="collapseOne" class="accordion-body">
+                CineStream es la nueva plataforma de streaming que reúne todos
+                los contenidos que te gustan junto con aún más éxitos de
+                taquilla, series generadoras de obsesión y exclusivos CineStream
+                Originals.
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-button" data-target="#collapseTwo"
+                aria-expanded="false" aria-controls="collapseTwo">
+                ¿Tiene algún costo extra ver CineStream desde mi celular o
+                tablet?
+              </button>
+              <div id="collapseTwo" class="accordion-body">
+                Con el plan estándar puedes disfrutar todo el catálogo en todas
+                tus pantallas, incluyendo smartphone y tableta.
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-button" data-target="#collapseThree"
+                aria-expanded="false" aria-controls="collapseThree">
+                ¿Ofrecen control parental para menores?
+              </button>
+              <div id="collapseThree" class="accordion-body">
+                Sí, puedes crear un perfil Infantil para cada uno de tus niños,
+                con controles parentales que limitan el contenido que se puede
+                ver.
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const accordionButtons = document.querySelectorAll('.accordion-button');
+
+    accordionButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const accordionItem = button.parentNode;
+        const body = accordionItem.querySelector('.accordion-body');
+
+        accordionButtons.forEach((otherButton) => {
+          if (otherButton !== button) {
+            otherButton.classList.remove('collapsed');
+            otherButton.setAttribute('aria-expanded', 'false');
+            otherButton.parentNode.querySelector('.accordion-body').style.display = 'none';
+          }
+        });
+
+        button.classList.toggle('collapsed');
+
+        const isExpanded = button.getAttribute('aria-expanded') === 'true';
+
+        button.setAttribute('aria-expanded', isExpanded ? 'false' : 'true');
+        body.style.display = isExpanded ? 'none' : 'block';
+      });
+    });
+  });
+</script>
+
+      <!--------------------------------------------FIN ACORDEON---------------------------------------->
+
+      <!--Footer-->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-row justify-content-center">
+            <div class="footer-links">
+              <h4>Cinestream</h4>
+              <ul>
+                <li><a href="./Html/aboutUs.html">Nosotros</a></li>
+                <li><a href="./Html/derechos.html">Derechos de contenido</a></li>
+                <li><a href="./Html/politicaPriv.html">Politica de privacidad</a></li>
+                <li><a href="./Html/registro.html">Prueba gratis</a></li>
+              </ul>
+            </div>
+            <div class="footer-links">
+              <h4>Ayuda</h4>
+              <ul>
+                <li><a href="./index.html">Preguntas</a></li>
+                <li><a href="./Html/contacto.html">Contacto</a></li>
+
+              </ul>
+            </div>
+            <div class="footer-links">
+              <h4>Siguenos</h4>
+              <div class="social-link">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--Copyright y scripts-->
+      <small class="small text-center" style="background-color: black;">@copyright-Cinestream-codoacodo4.0-todoslosderechosreservados</small>
+      <script src="./Scripts/script.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </section>
+    
+    </body>
+  </html>
